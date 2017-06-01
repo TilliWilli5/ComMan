@@ -43,3 +43,4 @@ git rm --cached fileName
 git merge -> git status -> Unmerged paths -> edit, delete all <<<<< ====== >>>>>> stuff and save -> git add . -> git commit -m "Resolved merge conflict by somehow"
 Если файл был удален кем то и я хочу подтвердить удаление то git rm fileName -> git commit
 git diff --no-index some/path other/path >> some_filename   посмотреть разницу между двумя директориями причем даже без гита
+git bundle create fileName.bundle master
